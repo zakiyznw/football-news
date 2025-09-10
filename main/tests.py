@@ -1,8 +1,7 @@
-from django.test import TestCase
-
-# Create your tests here.
 from django.test import TestCase, Client
 from .models import News
+
+# Create your tests here.
 
 class MainTest(TestCase):
     def test_main_url_is_exist(self):
